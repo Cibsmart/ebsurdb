@@ -1,0 +1,387 @@
+BODY, TD {
+	color :#333333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+BODY {
+	background-image:url(../images/background.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.BODY {
+	background-image:none;
+}
+/* Controls being used on HTML pages */
+input, select, textarea {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#333333;
+}
+
+input .number {
+	text-align:right;
+}
+
+.market{
+	border-color:navy;
+	border-width:1px;
+	border-style:Dashed;
+	border : thin dotted Navy;
+}
+.mkthead{
+	font-size : 12px;
+	font-style : normal;
+	font-weight : bold;
+}
+.welcome {
+	font-weight:bold;
+	font-size:14px;
+	color:#666666;
+}
+
+.nextlap{ background-image: url("../images/menu_02_bg.gif");
+}
+
+.numText{
+	text-align:right;
+}
+
+H2 {
+	font-size: 12pt;
+	color: #003366;
+}
+
+H3 {
+	font-size: 11pt;
+	color: #330066;
+}
+
+H4 {
+    font-size: small;
+	font-variant: small-caps;
+	font-weight: bold;
+	color : navy;
+	}
+
+A {
+	text-decoration: none;
+	color: #000066;
+	font-weight : bold;
+}
+
+A:Hover {
+	text-decoration: underline;
+	/*color: red;*/
+}
+#footer{
+	color:white;
+}
+.footer{
+	color:white;
+}
+HR {
+	color: blue;
+	height: 1pt;
+}
+.frame1{
+	border-color:#CCCCCC;
+	border-width:1px;
+	border-style:Dashed;
+}
+.frame{
+	border-color:#F4F4F4;
+	border-width:1px;
+	border-style:solid;
+}
+.frame_bar{
+	border-color:#666666;
+	border-width:1px;
+	border-style:solid;
+}
+
+.frame_right{
+	border-color:#333333;
+	border-width:1px;
+	border-style:solid;
+	border-top:0px;
+	border-bottom:0px;
+	border-left:0px;
+}
+
+.fsheaders {
+	color:#333333; FONT-FAMILY: Arial, Helvetica, verdana; FONT-SIZE: 12pt; FONT-STYLE: normal; FONT-WEIGHT: bold; LINE-HEIGHT: 14pt
+}
+.pressheader {
+	COLOR: #333333; FONT-FAMILY: Arial, Helvetica, verdana; FONT-SIZE: 14pt; FONT-STYLE: normal; FONT-WEIGHT: bold; LINE-HEIGHT: 16pt
+}
+.bigheader {
+	COLOR: #333333; FONT-FAMILY: Arial, Helvetica, verdana; FONT-SIZE: 16pt; FONT-STYLE: normal; FONT-WEIGHT: bold; LINE-HEIGHT: 18pt
+}
+
+.mainMenuOn {
+	BACKGROUND-COLOR: #cdcdcd
+}
+.mainMenuOff {
+	BACKGROUND-COLOR: #e6e6e6
+}
+.button {
+	background:url(../images/button1_left.png);
+	background-repeat:no-repeat;
+	float:left;
+	border: 0pt none ; 
+	margin: 0pt; 
+	padding: 0px;
+	padding-left:20px; 
+	margin-right:10px;
+	height:27px;
+	text-align:center;
+	vertical-align:top;
+	font-weight:bold;
+	cursor:hand; /*does not work with all browsers*/
+	border-right:1px solid #CCCCCC;
+	
+}
+
+.biglink {
+	border:1px solid #CCCCCC;
+}
+
+.biglink:hover{
+	border:1px inset #333333;
+	background:#F5F5F5;
+}
+#padd1{
+	padding-top:10px;
+}
+
+.table_header{
+	color:#000033;
+	background:#E9E9E9;
+	border:1px outset #666666;
+	padding-left:2px;
+	font-weight:bold;
+}
+.table_rows{
+	height:30px;
+	vertical-align:middle;
+	border-bottom:1px #CCCCCC;
+}
+
+table.toolbar {
+	/*background-color:#eee;*/
+	border:1px ridge #999999;
+}
+
+table.toolbar span { float: none; width: 32px; height: 32px; margin: 0 auto; display: block; }
+table.toolbar a {
+   display: block; float: left;
+	white-space: nowrap;
+	border: 1px solid #fbfbfb;
+	padding: 1px 5px;
+	cursor: pointer;
+}
+
+table.toolbar a:hover {
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
+	color: #0B55C4;
+	background:#FFFFFF;
+}
+
+.edit_record {
+	background:url(../images/publish_g.png);
+	padding-left:20px;
+	background-repeat:no-repeat;
+}
+.delete_record {
+	background:url(../images/publish_r.png);
+	padding-left:20px;
+	background-repeat:no-repeat;
+}
+
+/** toolbar icons **/
+.icon-32-send 			{ background-image: url(../images/toolbar/icon-32-send.png); }
+.icon-32-delete 		{ background-image: url(../images/toolbar/icon-32-delete.png); }
+.icon-32-help 			{ background-image: url(../images/toolbar/icon-32-help.png); }
+.icon-32-cancel 		{ background-image: url(../images/toolbar/icon-32-cancel.png); }
+.icon-32-config 		{ background-image: url(../images/toolbar/icon-32-config.png); }
+.icon-32-apply 		{ background-image: url(../images/toolbar/icon-32-apply.png); }
+.icon-32-back			{ background-image: url(../images/toolbar/icon-32-back.png); }
+.icon-32-forward		{ background-image: url(../images/toolbar/icon-32-forward.png); }
+.icon-32-save 			{ background-image: url(../images/toolbar/icon-32-save.png); }
+.icon-32-edit 			{ background-image: url(../images/toolbar/icon-32-edit.png); }
+.icon-32-copy 			{ background-image: url(../images/toolbar/icon-32-copy.png); }
+.icon-32-move 			{ background-image: url(../images/toolbar/icon-32-move.png); }
+.icon-32-new 			{ background-image: url(../images/toolbar/icon-32-new.png); }
+.icon-32-upload 		{ background-image: url(../images/toolbar/icon-32-upload.png); }
+.icon-32-assign 		{ background-image: url(../images/toolbar/icon-32-publish.png); }
+.icon-32-html 			{ background-image: url(../images/toolbar/icon-32-html.png); }
+.icon-32-css 			{ background-image: url(../images/toolbar/icon-32-css.png); }
+.icon-32-menus 			{ background-image: url(../images/toolbar/icon-32-menu.png); }
+.icon-32-publish 		{ background-image: url(../images/toolbar/icon-32-publish.png); }
+.icon-32-unpublish 	{ background-image: url(../images/toolbar/icon-32-unpublish.png);}
+.icon-32-restore		{ background-image: url(../images/toolbar/icon-32-revert.png); }
+.icon-32-trash 		{ background-image: url(../images/toolbar/icon-32-trash.png); }
+.icon-32-archive 		{ background-image: url(../images/toolbar/icon-32-archive.png); }
+.icon-32-unarchive 	{ background-image: url(../images/toolbar/icon-32-unarchive.png); }
+.icon-32-preview 		{ background-image: url(../images/toolbar/icon-32-preview.png); }
+.icon-32-default 		{ background-image: url(../images/toolbar/icon-32-default.png); }
+
+.paginator {
+	font-family : verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.paginator_Center {
+	font-family : verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align : center;
+}
+
+#row, .standardTable {
+	font-family : verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 2;
+	border-style: solid;
+	border-width: 1px;
+	
+	border-collapse: collapse;
+  	border: 1px solid #03476F;
+  	font: normal 11px verdana, arial, helvetica, sans-serif;
+  	color: #363636;
+  	background: #FFFFFF;
+}
+
+#row td, #row th{
+  border: 1px dotted #03476F;
+  padding: .4em;
+  }
+  
+#row td {
+	color: #363636;
+}
+
+.standardTable_Header {
+	color: #FFFFFF;
+	background-color: #006699;
+	padding: 3;
+	text-align: center;
+	border: none;
+	font-weight : bold;
+	font-size: 10px;
+	
+}
+
+.standardTable_SortHeader, .sortable, .sortable a, .sorted, .sorted a {
+    color: #FFFFFF;
+	background-color: #006699;
+	padding: 3;
+	text-align: center;
+	border: none;
+	font-weight : bold;
+	
+}
+.order1 {
+    bcolor: #FFFFFF;
+	background-color: #006699;
+	background-image:url(../images/undo.gif);
+	background-repeat:no-repeat;
+	padding-left:10px;
+    padding: 3;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+.order2 {
+    color: #FFFFFF;
+	background-color: #006699;
+	background-image:url(../images/undo_on.gif);
+	background-repeat:no-repeat;
+	padding-left:2px;
+    padding: 3;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+.standardTable_Footer {
+    background-color: #FFFFE0;
+    font-weight: bold;
+}
+
+.standardTable_Row1, .odd {
+    background-color: #FFFFFF;
+}
+
+.standardTable_Row2, .even {
+    background-color: #FFFFE0;
+}
+
+.standardTable_Column {
+	text-align: left;
+}
+
+.standardTable_ColumnCentered {
+    text-align: center;
+}
+.standardTable_ColumnRight {
+    text-align: right;
+}
+
+.appraisal_table_Header {
+	color: #FFFFFF;
+	background-color: #006699;
+	padding: 3;
+	text-align: center;
+	border: none;
+	font-weight : bold;
+	font-size: 11px;
+	
+	color:#FFFFFF;
+}
+
+.appraisal_table_row {
+	background-color:#E0E2FC;
+}
+
+.view_table {
+  border-collapse: collapse;
+  border: 1px solid #03476F;
+  font: normal 11px verdana, arial, helvetica, sans-serif;
+  color: #363636;
+  
+  }
+  
+.view_table td{
+  border: 1px dotted #03476F;
+  padding: .4em;
+  color: #363636;
+  }
+  
+
+/* ============ ACCORDION ============== */
+.technology{ /*header of 2nd demo*/
+cursor: hand;
+cursor: pointer;
+font: bold 12px Verdana;
+margin: 10px 0;
+border:thin #666666 1px;
+}
+
+
+.openlanguage{ /*class added to contents of 2nd demo when they are open*/
+color: #003366;
+}
+
+.closedlanguage{ /*class added to contents of 2nd demo when they are closed*/
+color: red;
+}
+
+a:hover
+{
+	background-color:#FFFFFF;
+}

@@ -1,0 +1,61 @@
+body {
+	margin: 0px;
+	/*background-image: url(../images/top_nav_bg.jpg);*/
+	background-repeat: repeat-x;
+}
+.top_banner {
+	background-image: url(../images/top_img.jpg);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+	height: 110px;
+}
+.top_banner1 {
+	background-image: url(../images/top_img1.jpg);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+	height: 233px;
+}
+.top_logo {
+	height: 200px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+}
+.top_main {
+	height: 200px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 35px;
+	padding-left: 10px;
+}
+.login_section {
+	height: 200px;
+	width: 900px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.login_box {
+	background-image: url(../images/login_bg.jpg);
+	background-repeat: no-repeat;
+	padding: 4px;
+	height: 170px;
+	width: 320px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+}
+.footer {
+	height: 90px;
+	width: 896px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left:4px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:10px;
+	color:000;
+}

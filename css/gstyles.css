@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+html{
+	display:block;
+}
+
+body{
+	display:block;
+	margin:8px;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+form{
+	margin-bottom:1em;
+	display:block;
+	margin-top:0em;
+}
+
+div{
+	display:block;
+}
+
+center{
+	display:block;
+	text-align:-webkit-center;
+}
+
+table[Attributes Style] {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-spacing: 0px;
+	border-top-color: #111;
+	border-right-color: #111;
+	border-bottom-color: #111;
+	border-left-color: #111;
+	width: 413px;
+	height: 1px;
+}
+
+table {
+	white-space: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-size: medium;
+	font-variant: normal;
+	font-style: normal;
+	color: -webkit-text;
+	text-align: -webkit-auto;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+
+td, th {
+	display:table-cell;
+	vertical-align:inherit;
+}
+

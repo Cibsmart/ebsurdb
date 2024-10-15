@@ -1,0 +1,41 @@
+
+h1{
+	color:white;
+	font-size:24pt;
+	text-align:center;
+	font-weight:bold;
+	font-family:aria,sans-serif;
+}
+
+.menu{
+	color:white;
+	font-size:12px;
+	text-align:center;
+	font-family:arial,sans-serif;
+	font-weight:bold
+}
+
+tr{
+	background:black;
+}
+.cib{
+	background:white;
+}
+
+p{
+	color:black;
+	font-size:12pt;
+	text-align:justify;
+	font-family:aria,sans-serif;
+}
+p.foot{
+	color:white;
+	font-size:9px;
+	text-align:center;
+	font-family:arial,sans-serif;
+	font-weight:bold;
+}
+
+a:link, a:visited, a:active{
+	color:white
+}

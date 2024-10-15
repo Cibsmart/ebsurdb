@@ -1,0 +1,187 @@
+/* CSS Document */
+/* Global Styles */
+
+body {
+	margin:0px;
+	}
+	
+td {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#000080;
+	}
+	
+a {
+	color: #993300;
+	}
+	
+a:hover {
+	color: #5C743D;
+	}
+
+/* ID Styles */
+
+#navigation td {
+	border-bottom: 0px solid #e3eed3;
+	border-top:0px solid #e3eed3;
+	border-right:1px solid #e3eed3;
+	}
+	
+#navigation a {
+	font: bold 14px Arial, Helvetica, sans-serif;
+	color: #336600;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	display:block;
+	padding:8px 6px 10px 20px;
+	}
+	
+#navigation a:hover {
+	background: #330066;
+	color:#FFFFFF;
+	}
+	
+#logo 	{
+	font:24px Arial, Helvetica, sans-serif;
+	color: #5C743D;
+	letter-spacing:.2em;
+	line-height:30px;
+	}
+
+#tagline 	{	
+	font:11px Arial, Helvetica, sans-serif;
+	color: #993300;
+	letter-spacing:.4em;
+	line-height:18px;
+	}
+
+#monthformat {
+	border-bottom: 1px dashed #5C743D;
+	}
+		
+#dateformat {
+	font:11px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight:bold;
+	letter-spacing:.2em;
+	}
+	
+#dateformat a {
+	font:11px Arial, Helvetica, sans-serif;
+	color: #993300;
+	font-weight:bold;
+	letter-spacing:.1em;
+	text-decoration:none;
+	}
+	
+#dateformat a:hover {
+	color: #F4FFE4;
+	letter-spacing:.1em;
+	}
+	
+/* Class Styles */
+	
+.bodyText {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#666666;
+	line-height:20px;
+	margin-top:0px;
+	}
+	
+.pageName{
+	font: 18px Arial, Helvetica, sans-serif;
+	color: #99CC66;
+	line-height:26px;
+	letter-spacing:.21em;
+	}
+	
+.subHeader {
+	font:bold 11px Arial, Helvetica, sans-serif;
+	color: #993300;
+	line-height:22px;
+	letter-spacing:.2em;
+	}
+
+.quote {
+	font: 20px Arial, Helvetica, sans-serif;
+	color: #759DA1;
+	line-height:30px;
+	}
+	
+.smallText {
+	font: 10px Arial, Helvetica, sans-serif;
+	color: #666666;
+	line-height: 22px;
+	}
+	
+.navText {
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+}
+
+
+div#nav{
+	margin:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.top_banner {
+	background-image: url(../images/top_img.jpg);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+	height: 100px;
+}
+.top_banner1 {
+	background-image: url(../images/top_img1.jpg);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+	height: 233px;
+}
+.top_logo {
+	height: 200px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0px;
+}
+.top_main {
+	height: 200px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.login_section {
+	height: 200px;
+	width: 900px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.login_box {
+	background-image: url(../images/login_bg.jpg);
+	background-repeat: no-repeat;
+	padding: 4px;
+	height: 170px;
+	width: 320px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+}
+.footer {
+	height: 90px;
+	width: 896px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left:4px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:10px;
+	color:000;
+}
